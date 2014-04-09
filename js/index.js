@@ -15,6 +15,7 @@
 		while( box.hasChildNodes() ){ box.removeChild(box.lastChild); }
 
 		createPicture( input.value );
+		input.value = "";
 	}
 
 })();
