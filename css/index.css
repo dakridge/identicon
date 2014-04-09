@@ -1,0 +1,86 @@
+#name-form
+{
+	position: absolute;
+
+	top: 50px;
+
+	left: 50%;
+	margin-left: -200px;
+
+	width: 400px;
+	/*border: 1px solid #ddd;*/
+}
+
+input
+{
+	position: relative;
+	margin: 0px;
+	/*float: left;*/
+
+	outline: none;
+
+	font-size: 14px;
+	color: #333333;
+
+	padding: 6px 5px;
+	border: none;
+
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#box
+{
+	position: absolute;
+	overflow: hidden;	
+
+	left: 50%;
+	top: 50%;
+
+	margin-left: -200px;
+	margin-top: -200px;
+
+	width: 400px;
+	height: 400px;
+
+	border: 1px solid #dddddd;
+}
+
+#box .bubble
+{
+	position: absolute;
+
+	width: 40px;
+	height: 40px;
+
+	background-color: rgba(0, 0, 200, 0.25);
+	opacity: 0.75;
+
+	border-radius: 100px;
+}
+
+/*body {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.x.axis path {
+	display: none;
+}
+
+.line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+*/
